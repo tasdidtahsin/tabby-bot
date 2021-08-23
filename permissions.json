@@ -1,0 +1,30 @@
+{
+    "Prep Rooms": {
+        "@everyone": {
+            "connect": false,
+            "read_messages": false
+        },
+        "Adjudicator": {
+            "connect": false,
+            "read_messages": true
+        },
+        "Debater": {
+            "connect": true,
+            "read_messages": true
+        }
+    },
+    "Results Discussion": {
+        "@everyone": {
+            "connect": false,
+            "read_messages": false
+        },
+        "Adjudicator": {
+            "connect": true,
+            "read_messages": true
+        },
+        "Debater": {
+            "connect": false,
+            "read_messages": true
+        }
+    }
+}
